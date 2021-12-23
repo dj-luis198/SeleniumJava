@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-07T11:34:53 ART" name="Default suite" finished-at="2021-12-07T11:36:49 ART" duration-ms="116190">
+    <groups>
+    </groups>
+    <test started-at="2021-12-07T11:34:53 ART" name="Default test" finished-at="2021-12-07T11:36:49 ART" duration-ms="116190">
+      <class name="Test.SearchTest">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Test.SearchTest@359f7cdf]" started-at="2021-12-07T11:34:55 ART" name="beforeMethod" finished-at="2021-12-07T11:35:18 ART" duration-ms="22551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="searchTest(java.lang.String,java.lang.String)[pri:0, instance:Test.SearchTest@359f7cdf]" started-at="2021-12-07T11:35:18 ART" name="searchTest" description="Busqueda de un producto sin logeo" data-provider="LoginData" finished-at="2021-12-07T11:35:27 ART" duration-ms="9258" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shirts]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Test.SearchTest@359f7cdf]" started-at="2021-12-07T11:35:27 ART" name="afterMethod" finished-at="2021-12-07T11:35:29 ART" duration-ms="1975" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchTest status=SUCCESS method=SearchTest.searchTest(java.lang.String,java.lang.String)[pri:0, instance:Test.SearchTest@359f7cdf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Test.SearchTest@359f7cdf]" started-at="2021-12-07T11:35:29 ART" name="beforeMethod" finished-at="2021-12-07T11:35:42 ART" duration-ms="12957" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="searchTest(java.lang.String,java.lang.String)[pri:0, instance:Test.SearchTest@359f7cdf]" started-at="2021-12-07T11:35:42 ART" name="searchTest" description="Busqueda de un producto sin logeo" data-provider="LoginData" finished-at="2021-12-07T11:35:46 ART" duration-ms="3552" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[casual]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Test.SearchTest@359f7cdf]" started-at="2021-12-07T11:35:46 ART" name="afterMethod" finished-at="2021-12-07T11:35:46 ART" duration-ms="730" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchTest status=SUCCESS method=SearchTest.searchTest(java.lang.String,java.lang.String)[pri:0, instance:Test.SearchTest@359f7cdf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Test.SearchTest@359f7cdf]" started-at="2021-12-07T11:35:46 ART" name="beforeMethod" finished-at="2021-12-07T11:35:57 ART" duration-ms="10291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="searchTest(java.lang.String,java.lang.String)[pri:0, instance:Test.SearchTest@359f7cdf]" started-at="2021-12-07T11:35:57 ART" name="searchTest" description="Busqueda de un producto sin logeo" data-provider="LoginData" finished-at="2021-12-07T11:36:01 ART" duration-ms="4462" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[summer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Test.SearchTest@359f7cdf]" started-at="2021-12-07T11:36:01 ART" name="afterMethod" finished-at="2021-12-07T11:36:02 ART" duration-ms="704" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchTest status=SUCCESS method=SearchTest.searchTest(java.lang.String,java.lang.String)[pri:0, instance:Test.SearchTest@359f7cdf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Test.SearchTest@359f7cdf]" started-at="2021-12-07T11:36:02 ART" name="beforeMethod" finished-at="2021-12-07T11:36:13 ART" duration-ms="10824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="searchTest(java.lang.String,java.lang.String)[pri:0, instance:Test.SearchTest@359f7cdf]" started-at="2021-12-07T11:36:13 ART" name="searchTest" description="Busqueda de un producto sin logeo" data-provider="LoginData" finished-at="2021-12-07T11:36:16 ART" duration-ms="3526" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[evening]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Test.SearchTest@359f7cdf]" started-at="2021-12-07T11:36:16 ART" name="afterMethod" finished-at="2021-12-07T11:36:17 ART" duration-ms="681" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchTest status=SUCCESS method=SearchTest.searchTest(java.lang.String,java.lang.String)[pri:0, instance:Test.SearchTest@359f7cdf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Test.SearchTest@359f7cdf]" started-at="2021-12-07T11:36:17 ART" name="beforeMethod" finished-at="2021-12-07T11:36:28 ART" duration-ms="10829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="searchTest(java.lang.String,java.lang.String)[pri:0, instance:Test.SearchTest@359f7cdf]" started-at="2021-12-07T11:36:28 ART" name="searchTest" description="Busqueda de un producto sin logeo" data-provider="LoginData" finished-at="2021-12-07T11:36:31 ART" duration-ms="3602" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[short]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Se esperaba: 5 y se obtuvo: 4 expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Se esperaba: 5 y se obtuvo: 4 expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at PageJava.Search.checkList(Search.java:40)
+at Test.SearchTest.searchTest(SearchTest.java:38)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Test.SearchTest@359f7cdf]" started-at="2021-12-07T11:36:31 ART" name="afterMethod" finished-at="2021-12-07T11:36:33 ART" duration-ms="1495" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchTest status=FAILURE method=SearchTest.searchTest(java.lang.String,java.lang.String)[pri:0, instance:Test.SearchTest@359f7cdf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Test.SearchTest@359f7cdf]" started-at="2021-12-07T11:36:33 ART" name="beforeMethod" finished-at="2021-12-07T11:36:44 ART" duration-ms="11166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="searchTest(java.lang.String,java.lang.String)[pri:0, instance:Test.SearchTest@359f7cdf]" started-at="2021-12-07T11:36:44 ART" name="searchTest" description="Busqueda de un producto sin logeo" data-provider="LoginData" finished-at="2021-12-07T11:36:48 ART" duration-ms="4334" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Test.SearchTest@359f7cdf]" started-at="2021-12-07T11:36:48 ART" name="afterMethod" finished-at="2021-12-07T11:36:49 ART" duration-ms="705" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchTest status=SUCCESS method=SearchTest.searchTest(java.lang.String,java.lang.String)[pri:0, instance:Test.SearchTest@359f7cdf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- Test.SearchTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
